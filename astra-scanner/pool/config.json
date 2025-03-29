@@ -1,0 +1,22 @@
+{
+  "scanner": {
+    "max_workers": 3000,
+    "timeout": 0.8,
+    "chunk_size": 10,
+    "max_retries": 0,
+    "workers": 200,
+    "batch_size": 1000,
+    "connection_timeout": 0.5,
+    "playlist_timeout": 5,
+    "channel_timeout": 2,
+    "pool_connections": 50,
+    "pool_maxsize": 50
+  },
+  "asn": {
+    "max_workers": 20,
+    "api_timeout": 5
+  },
+  "language": {
+    "default": "en"
+  }
+}

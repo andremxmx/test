@@ -1,0 +1,30 @@
+{
+  "asn": {
+    "country_prompt": "Enter country code (e.g., US, ES): ",
+    "no_asn_found": "No ASNs found for the specified country.",
+    "no_ranges_found": "No IP ranges found.",
+    "start_msg": "Starting ASN scanning..."
+  },
+  "astra": {
+    "scan": {
+      "starting": "Starting scan with {} IPs and {} ports..."
+    }
+  },
+  "errors": {
+    "interrupted": "Operation interrupted.",
+    "no_files_found": "Required files not found.",
+    "no_ip_file": "IP file not found. Please create pool/ip.txt",
+    "no_ports_file": "Ports file not found. Please create pool/ports.txt",
+    "partial_results": "Partial results may have been saved.",
+    "port_convert": "Error converting port: {}"
+  },
+  "menu": {
+    "change_lang": "3. Change language",
+    "exit": "4. Exit",
+    "main_menu": "Main Menu:",
+    "scan_asn": "1. Scan ASN ranges by country",
+    "scan_astra": "2. Scan for Astra servers",
+    "select_option": "Select an option: ",
+    "title": "Astra Scanner"
+  }
+}
